@@ -85,7 +85,7 @@ After conducting the statistical analysis, we came up with **6** different Regio
 
 **For a more in-depth understanding of the methodology and analysis, please refer to the attached paper.**
 
-## Acknowledgments
+# Acknowledgments
 
 - This research project was supervised by [Dr. Meena M. Makary](https://www.linkedin.com/in/meenamakary/), who provided invaluable guidance and expertise throughout such incredible journey as a part of the FMRI course at Cairo University Faculty of Engineering.
 
