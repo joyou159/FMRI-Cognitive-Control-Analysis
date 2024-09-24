@@ -46,7 +46,7 @@ Before jumping into the pre-processing stage, it’s a good practice to inspect 
  structural MRI data. 
 
  <p align="center">
-  <img src="figs\Wrap around.png" alt="Wrap Around Artifact of Anatomical MRI" title="Wrap Around Artifact of Anatomical MRI" width="300" />
+  <img src="figs\Wrap around.png" alt="wrap around artifact of anatomical MRI" title="wrap around artifact of anatomical MRI" width="300" />
 </p>
 
 
@@ -60,7 +60,7 @@ are not. This where the role of pre-processing comes in, which involves several 
 tion and normalization**
 
 <p align="center">
-  <img src="figs\best_skull_stripping_sub_8png.png" alt="Skull Stripping Example" title="Skull Stripping Example" />
+  <img src="figs\best_skull_stripping_sub_8png.png" alt="Skull stripping example" title="Skull stripping example" />
 </p>
 
 
@@ -70,7 +70,12 @@ tion and normalization**
  regions that are likely to be involved in the task of interest. This stage includes three consecutive level of analysis, starting with **1st level analysis through 3rd level analysis**. 
 
 <p align="center">
-  <img src="figs\clusters.png" alt="The Statistically Significant Regions" title="The Statistically Significant Regions" />
+  <img src="figs\Statistical analysis workflow.png" alt="The statistical analysis workflow" title="The statistical analysis workflow" />
+</p>
+
+
+<p align="center">
+  <img src="figs\clusters.png" alt="The statistically significant regions" title="The statistically significant regions" />
 </p>
 
 ## ROI Analysis
@@ -78,12 +83,20 @@ tion and normalization**
 After conducting the statistical analysis, we came up with **6** different Regions, which might be involved in the cognitive task of interest. These regions show high statistical significance for one task over the other. To conclude which task is the more significant, we would take a mask of specific size, in our case **5 mm**. Then, extract the average z-stats for each cope of the three. After that, we would apply a **t-test** to know which one of two task contribute the most.
 
 <p align="center">
-  <img src="figs/Cluster_1.png" alt="Cluster 1, highlighted with the cursor" title="Cluster 1, highlighted with the cursor" style="width:65%;  vertical-align:middle;" />
-  <img src="figs/Region_1.png" alt="The Average of Z-stats for Each Cope with the Statistical Significance of Each" title="The Average of Z-stats for Each Cope with the Statistical Significance" style="width:30%; vertical-align:middle;" />
+  <img src="figs/Cluster_6.png" alt="Cluster 6, spotted with the cursor, in the Posterior Parietal Cortex" title="Cluster 6, spotted with the cursor, in the Posterior Parietal Cortex" style="width:65%;  vertical-align:middle;" />
+  <img src="figs/Region_6.png" alt="The average of z-stats for each cope with the statistical significance in region 6" title="The average of z-stats for each cope with the statistical significance in region 6" style="width:30%; vertical-align:middle;" />
 </p>
 
+# Key Findings
+Significant activation in:
+- Anterior Cingulate Cortex (ACC) 
+- Inferior Frontal Gyrus (IFG)
+- Posterior Parietal Cortex 
+- Occipital Lobe 
 
-**For a more in-depth understanding of the methodology and analysis, please refer to the attached paper.**
+These regions are involved in conflict resolution and cognitive control, particularly during incongruent task conditions. 
+
+**For a more in-depth understanding of the extracts and the analysis, please refer to the attached paper.**
 
 # Acknowledgments
 
