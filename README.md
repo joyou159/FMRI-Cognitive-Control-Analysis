@@ -102,7 +102,7 @@ These regions are involved in conflict resolution and cognitive control, particu
 
 - This research project was supervised by [Dr. Meena M. Makary](https://www.linkedin.com/in/meenamakary/), who provided invaluable guidance and expertise throughout such incredible journey as a part of the FMRI course at Cairo University Faculty of Engineering.
 
-- [Andy’s Brain Book](https://andysbrainbook.readthedocs.io/en/latest/#welcome-to-andy-s-brain-book) by [Andrew Jahn](https://medicine.umich.edu/dept/radiology/andrew-jahn-phd) was a helpful source for explanation and scripting practices.  
+- [Andy’s Brain Book](https://andysbrainbook.readthedocs.io/en/latest/#welcome-to-andy-s-brain-book) by [Andy Jahn](https://www.andysbrainblog.com/about) was a helpful source for explanation and scripting practices.  
 
 <div style="text-align: right">
     <img src="https://imgur.com/Wk4nR0m.png" alt="Cairo University Logo" width="100" style="border-radius: 50%;"/>
